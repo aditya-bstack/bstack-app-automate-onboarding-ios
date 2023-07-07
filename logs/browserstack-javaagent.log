@@ -1,0 +1,225 @@
+13:02:52.632 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:02:52.635 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:02:53.012 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:02:53.069 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./BStackSampleApp.ipa to browserstack
+13:03:02.008 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/f0f968617b891bb471b3cffb63142f281992d199"}
+13:03:02.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://f0f968617b891bb471b3cffb63142f281992d199]
+13:03:02.016 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:09:16.899 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 13 Pro, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008110-001179191AA2801E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 89, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:09:18.488 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-001845490C03C01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 89, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:09:40.392 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone XS, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008020-001909880A01002E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: 89, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:09:40.858 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/9ittommfwqwyaot3jlyl6qilmqf0yeidilg0otum to view build report, insights, and many more debugging information all at one place!
+
+13:09:41.758 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/c2a7fe4702d7e0270db712d698bcd36f73e246ad
+13:19:24.352 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:19:24.355 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:19:24.732 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:19:24.760 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./BStackSampleApp.ipa to browserstack
+13:19:28.159 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/f0f968617b891bb471b3cffb63142f281992d199"}
+13:19:28.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://f0f968617b891bb471b3cffb63142f281992d199]
+13:19:28.162 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:20:07.628 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPad 9th, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-000878EC21B8C02E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 90, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:20:09.839 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-000634DA1E60402E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: 90, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:20:31.906 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"Expected condition failed: waiting for element to be clickable: AppiumBy.accessibilityId: Text Input (tried for 30 second(s) with 500 milliseconds interval) Build info: version: '4.10.0', revision: 'c14d967899' System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7' Driver info: io.appium.java_client.ios.IOSDriver Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: \/usr\/local\/.browserstack\/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-apse.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http:\/\/mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-0002153E2187C01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 90, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS} Session ID: ca18d1dc106a27489579760fb7f732294e8432c0","status":"failed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-apse.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-0002153E2187C01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 90, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:20:32.962 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/fhnxskpeljaqpn80zjzlzqbbkft6s0iqy3wtlepv to view build report, insights, and many more debugging information all at one place!
+
+13:20:33.652 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/4fa805059dda90d3be378ef464075e4a0563b2b8
+13:21:13.074 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:21:13.076 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:21:13.432 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:21:13.457 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./BStackSampleApp.ipa to browserstack
+13:21:16.264 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/f0f968617b891bb471b3cffb63142f281992d199"}
+13:21:16.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://f0f968617b891bb471b3cffb63142f281992d199]
+13:21:16.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:21:53.140 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-0019053A2EDB802E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: 91, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:21:53.282 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPad 9th, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-001E596834EB402E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 91, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:22:37.189 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"Expected condition failed: waiting for element to be clickable: AppiumBy.accessibilityId: Text Input (tried for 50 second(s) with 500 milliseconds interval) Build info: version: '4.10.0', revision: 'c14d967899' System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7' Driver info: io.appium.java_client.ios.IOSDriver Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: \/usr\/local\/.browserstack\/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http:\/\/mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000E104E3687C01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 91, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS} Session ID: 1552e366baa0414e1970a6cc6d5ad72b1754a775","status":"failed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro Max, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000E104E3687C01E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 91, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:22:38.071 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1bbsuo2oupc19245bmuiwkhxqxjfaf6latmuwb6m to view build report, insights, and many more debugging information all at one place!
+
+13:22:38.777 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/cc437d910bc8fd1db68d110237e20c67c9659826
+13:23:54.064 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:23:54.067 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:23:54.415 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:23:54.442 [main] INFO  c.browserstack.BrowserStackJavaAgent - uploading app ./BStackSampleApp.ipa to browserstack
+13:23:57.516 [main] INFO  c.browserstack.BrowserStackJavaAgent - app upload completed: {"app_url":"bs:\/\/f0f968617b891bb471b3cffb63142f281992d199"}
+13:23:57.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://f0f968617b891bb471b3cffb63142f281992d199]
+13:23:57.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:24:37.070 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 14 Pro, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008120-000241483C9B401E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 92, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:24:37.184 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPhone 11, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-001111C00EBB802E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: 92, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:24:38.068 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '17.0.7'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {appium:automationName: xcuitest, appium:bootstrapPath: /usr/local/.browserstack/co..., appium:browserstack.isTargetBased: true, appium:bundleID: com.browserstack.Sample-iOS, appium:bundleId: com.browserstack.Sample-iOS, appium:databaseEnabled: false, appium:deviceName: iPad 9th, appium:deviceOrientation: PORTRAIT, appium:javascriptEnabled: true, appium:keychainPassword: [REDACTED VALUE], appium:keychainPath: [REDACTED VALUE], appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:newCommandTimeout: 0, appium:noReset: true, appium:optimalHubUrl: hub-aps.browserstack.com, appium:orientation: PORTRAIT, appium:realMobile: true, appium:safariIgnoreFraudWarning: true, appium:safariInitialUrl: http://mobile-internet-chec..., appium:takesScreenshot: true, appium:udid: 00008030-00190C340278C02E, appium:useXctestrunFile: true, appium:waitForQuiescence: false, appium:wdaStartupRetries: 3, appium:webStorageEnabled: false, appium:webkitResponseTimeout: 20000, browserVersion: null, bstack:options: {appiumVersion: 1.21.0, buildIdentifier: 92, hostName: AdityaGupta-FVFG3XDTQ05D}, platformName: IOS}
+13:24:38.551 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/s7safifmxrrhn3wmvcoxp0ygxsazt67bepipbii4 to view build report, insights, and many more debugging information all at one place!
+
+13:24:39.281 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/3229c02b7926405f3b52006edea0061a69a415c0
+14:08:13.072 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:08:13.075 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:08:13.446 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:08:21.893 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/u3ohyj3qkxuydmxru3gleuwwreb0vbcedyeuhnxo to view build report, insights, and many more debugging information all at one place!
+
+20:35:11.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+20:35:11.971 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+20:35:12.328 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:35:18.004 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/zfzldn1vwtpoggob1hq2rhe1vsnkszhzcg9iv0z1 to view build report, insights, and many more debugging information all at one place!
+
+20:37:30.583 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+20:37:30.586 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+20:37:30.944 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:37:38.337 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/viyvroso6sai5vpkz4xirxy183yppcxsgo9qqgd2 to view build report, insights, and many more debugging information all at one place!
+
+20:41:55.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+20:41:55.477 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+20:41:55.825 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:42:02.388 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/f8gaia0y1haqf144q3kk3onv0jw6krglysesi8vb to view build report, insights, and many more debugging information all at one place!
+
+11:28:09.598 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+11:28:09.601 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+11:28:09.943 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:28:15.608 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tccvz8x0tqc4l003sbgtb5vfs6jxye8tsczhwila to view build report, insights, and many more debugging information all at one place!
+
+11:32:17.761 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+11:32:17.765 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+11:32:18.222 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:32:23.746 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/a5nzuu07cmexlxsnuqtngvmvsgtlevemoflnrabd to view build report, insights, and many more debugging information all at one place!
+
+12:04:37.410 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:04:37.413 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:04:37.759 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:04:44.799 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/2jbkthe7fliusdruknzd5ti0gfz31zwd7xcg8vmq to view build report, insights, and many more debugging information all at one place!
+
+12:07:08.216 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:07:08.222 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:07:08.567 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:08:08.246 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qxhoqwxhvnhfzrxnzbbo6r4ntsiz4x5ltjhi52ww to view build report, insights, and many more debugging information all at one place!
+
+12:08:28.617 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:08:28.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:08:29.107 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:09:18.818 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mkgk5v4yoidswktdymvdwylaffincriobmat0jd7 to view build report, insights, and many more debugging information all at one place!
+
+12:18:44.221 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:18:44.224 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:18:44.561 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:18:49.721 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bklu0flvijeeps6t9vdmazye2cfygznkmagbjjr7 to view build report, insights, and many more debugging information all at one place!
+
+12:19:11.064 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:19:11.066 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:19:11.416 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:58:34.436 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+12:58:34.438 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+12:58:34.805 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:58:57.823 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/p5efhajyi7f3i3oytgykfdbjp8eof3uihazdmeu6 to view build report, insights, and many more debugging information all at one place!
+
+13:02:59.911 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:02:59.914 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:03:00.427 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:16:04.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:16:04.479 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:16:04.997 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:21:54.649 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:21:54.652 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:21:55.025 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:33:11.961 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:33:11.964 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:33:12.310 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:47:34.060 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:47:34.063 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:47:34.426 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:48:33.122 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:48:33.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:48:33.579 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:49:14.189 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:49:14.193 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:49:14.526 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:55:49.401 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:55:49.404 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:55:49.786 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:56:31.306 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+13:56:31.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+13:56:31.651 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:06:56.882 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:06:56.885 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:06:57.235 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:07:32.632 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/fblnttbycpahdf5hvb4buy7rwpqwywy17z7rvbyj to view build report, insights, and many more debugging information all at one place!
+
+14:09:10.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:09:10.708 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:09:11.055 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:09:44.890 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ayhqqm3e6lubvuop0u2mysc9xnkb0zkbqhupwwby to view build report, insights, and many more debugging information all at one place!
+
+14:12:00.525 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:12:00.536 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:12:00.896 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:12:35.014 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sqicfxdmoce1i4spxxid1u518cil8l6pnspumoul to view build report, insights, and many more debugging information all at one place!
+
+14:15:27.284 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:15:27.286 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:15:27.675 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:16:04.265 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/upntnkweqhldzw61ey9z5mbvfnihmnybcy0aybbl to view build report, insights, and many more debugging information all at one place!
+
+14:17:49.412 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:17:49.414 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:17:49.785 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:20:29.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+14:20:29.953 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.2.1
+14:20:30.313 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:21:19.015 [tearDown@null] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/e8eg8snb2xb3dtotds7cvi7u16iblbehiaokkfmb to view build report, insights, and many more debugging information all at one place!
+
